@@ -13,12 +13,13 @@ Il flusso di lavoro è il seguente:
 	a. input: file input.xlsx 
 	b. output: file shortest_path_dijkstra.xlsx con la lista dei nodi che costituiscono lo shortest path;
   
-3. Calcolo dello shortest path con dijkstra del package networkx e mappa dei due shortest path: si esegue Main.ipynb:
-input:
+3. Calcolo dello shortest path con dijkstra del package networkx e mappa dei due shortest path: si esegue Main.ipynb.
+
+Input:
 	1. input.xlsx
 	2. shortest_path_dijkstra.xlsx 
  
-output: 
+Output: 
 	1. la lista dei nodi dello shortest path con dijkstra di networkx (e anche lo sp con dikstra di networkx per grafi non weighted) 
 	2. la lista dei nodi dello shortest path con dijkstra da zero
 	3. i giorni impiegati 
