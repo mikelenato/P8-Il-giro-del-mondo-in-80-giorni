@@ -5,13 +5,13 @@ Il Main è eseguibile su Linux; per l'esecuzione su Windows è necessario instal
 
 Il flusso di lavoro è il seguente:
 
-1. Calcolo grafo: si esegue grafo.ipynb; 
-	a. input: il dataset iniziale worldcities.xlsx 
-	b. output: input.csv (o in alternativa input.xlsx) che contiene la lista di ciascuna città come nodo source del grafo direzionato e le 3 città target a cui ciascun nodo è   collegato;
+1. Calcolo grafo: si esegue grafo.ipynb.
+	a. Input: il dataset iniziale worldcities.xlsx 
+	b. Output: input.csv (o in alternativa input.xlsx) che contiene la lista di ciascuna città come nodo source del grafo direzionato e le 3 città target a cui ciascun nodo è   collegato;
   
-2. Calcolo dello shortest path con dijkstra da zero: si esegue dijkstra.ipynb 
-	a. input: file input.xlsx 
-	b. output: file shortest_path_dijkstra.xlsx con la lista dei nodi che costituiscono lo shortest path;
+2. Calcolo dello shortest path con dijkstra da zero: si esegue dijkstra.ipynb.
+	a. Input: file input.xlsx 
+	b. Output: file shortest_path_dijkstra.xlsx con la lista dei nodi che costituiscono lo shortest path;
   
 3. Calcolo dello shortest path con dijkstra del package networkx e mappa dei due shortest path: si esegue Main.ipynb.
 
