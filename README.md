@@ -7,7 +7,7 @@ Il flusso di lavoro è il seguente:
 
 1. Calcolo grafo: si esegue grafo.ipynb.
 	a. Input: il dataset iniziale worldcities.xlsx 
-	b. Output: file input.csv (o in alternativa input.xlsx) che contiene la lista di ciascuna città come nodo source del grafo direzionato e le 3 città target a cui ciascun nodo è   collegato;
+	b. Output: file input.csv (o in alternativa input.xlsx) che contiene la lista di ciascuna città come nodo source del grafo direzionato e le 3 città sink a cui ciascun nodo è collegato;
   
 2. Calcolo dello shortest path con dijkstra da zero: si esegue dijkstra.ipynb.
 	a. Input: file input.xlsx 
